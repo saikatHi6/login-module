@@ -13,6 +13,7 @@
     		<property name="show_sql">true</property>
     		<property name="hbm2ddl.auto">update</property>
     		<property name="hibernate.generate_statistics" >true</property>
+    		 <property name="hibernate.format_sql">true</property>
     		
     		<mapping class="org.common.login.module.entity.Login"/>
     		<mapping class="org.common.login.module.entity.User"/>
